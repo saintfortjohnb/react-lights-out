@@ -1,0 +1,23 @@
+/* .Cell {
+  height: 100px;
+  width: 100px;
+  background-color: darkgray;
+  cursor: pointer;
+}
+
+.Cell-lit {
+  background-color: white;
+} */
+
+.Cell {
+  cursor: pointer;
+  background-color: #ccc; /* Default: light off */
+}
+
+.Cell-lit {
+  background-color: #fdd835; /* Light on */
+}
+
+.Cell:hover {
+  opacity: 0.7; /* Slight visual cue on hover */
+}
